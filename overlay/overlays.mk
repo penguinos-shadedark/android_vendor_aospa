@@ -13,14 +13,19 @@ PRODUCT_PACKAGES += \
     AOSPASettingsOverlay \
     AOSPASettingsProviderOverlay \
     AOSPASystemUIOverlay \
+    FontComfortaaOverlay \
+    FontExotwoOverlay \
     FontGoogleSansOverlay \
     FontHarmonySansOverlay \
     FontInterOverlay \
     FontLinotteSourceOverlay \
     FontManropeOverlay \
+    FontMiSansOverlay \
+    FontNotoSansOverlay \
     FontOnePlusSansOverlay  \
     FontOppoSansOverlay \
     FontSpaceGroteskOverlay \
+    FontStoropiaOverlay \
     FontUrbanistOverlay \
     FontVolteOverlay \
     IconPackCircularAndroidOverlay \
