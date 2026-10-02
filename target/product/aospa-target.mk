@@ -258,7 +258,8 @@ PRODUCT_COPY_FILES += \
 
 # Preinstalled Packages
 PRODUCT_COPY_FILES += \
-    vendor/aospa/target/config/preinstalled-packages-aospa.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-aospa.xml
+    vendor/aospa/target/config/preinstalled-packages-aospa.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-aospa.xml \
+    vendor/aospa/target/config/preinstalled-packages-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-google.xml
 
 # Privapp-permissions
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
