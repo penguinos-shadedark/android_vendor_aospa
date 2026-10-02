@@ -177,6 +177,10 @@ $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules.m
 endif
 else
 $(warning Building Without GMS)
+
+# Pixel Clocks
+$(call inherit-product, vendor/pixel/clocks/products/clocks.mk)
+
 # Google Sans: fonts_customization.xml and FontController default to these
 # families, which otherwise only ship with vendor/google/pixel on GMS builds.
 ifneq ($(wildcard vendor/google/pixel/proprietary/product/fonts),)
