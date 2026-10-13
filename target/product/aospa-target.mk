@@ -133,9 +133,9 @@ DONT_DEXPREOPT_PREBUILTS := true
 endif
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    GameSpace \
     Launcher3QuickStep \
-    ParanoidSystemUI
+    ParanoidSystemUI \
+    Pentas
 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.systemuicompilerfilter=speed
@@ -373,9 +373,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
-# GameSpace
+# Pentas
 PRODUCT_PACKAGES += \
-    GameSpace
+    Pentas
 
 # LMOFreeform
 PRODUCT_PACKAGES += \
